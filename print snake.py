@@ -1,8 +1,7 @@
-from numpy import intp
 
 snake = int(input("Please enter the number to draw the snake: "))
 
-while snake > 0:
+for i in range (snake):
 
     if snake % 2 == 0:
         print("🟩" , end="")
